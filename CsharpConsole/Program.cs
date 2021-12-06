@@ -15,7 +15,7 @@ public static void Main()
         ConstrTypes constrTypesPara = new ConstrTypes(10,20);//For Parameterized Constructor
         ConstrTypes constrTypesCopy = new ConstrTypes("Aditya Pawar",21);//For Parameterized Constructor
         ConstrTypes constrTypesCopyDeatils = new ConstrTypes(constrTypesCopy);//For Parameterized Constructor
-        Console.WriteLine("Parameterized Contructor =>  No 1 : {0}   No 2 : {1} ", constrTypesPara.no1, constrTypesPara.no2);
+        Console.WriteLine("Parameterized Contructor After Excuting =>  No 1 : {0}   No 2 : {1} ", constrTypesPara.no1, constrTypesPara.no2);
         Console.WriteLine(constrTypesCopyDeatils.GetDetiles);  //Copy Contructor
         Console.WriteLine("Static Contructor => Values of PI : {0}", ConstrTypes._PI); // Static Constructor
         Console.WriteLine(PrivateConstructor.GetCalled()); // Private Constructor
