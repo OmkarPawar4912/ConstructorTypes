@@ -13,10 +13,10 @@ public static void Main()
     {
         ConstrTypes constrTypes = new ConstrTypes();//For Default Constructor
         ConstrTypes constrTypesPara = new ConstrTypes(10,20);//For Parameterized Constructor
-        ConstrTypes constrTypesCopy = new ConstrTypes("Aditya Pawar",21);//For Parameterized Constructor
-        ConstrTypes constrTypesCopyDeatils = new ConstrTypes(constrTypesCopy);//For Parameterized Constructor
+        ConstrTypes constrTypesCopy = new ConstrTypes("Aditya Pawar",21);
+        ConstrTypes constrTypesCopyDeatils = new ConstrTypes(constrTypesCopy);//For Copy Constructor
         Console.WriteLine("Parameterized Contructor After Excuting =>  No 1 : {0}   No 2 : {1} ", constrTypesPara.no1, constrTypesPara.no2);
-        Console.WriteLine(constrTypesCopyDeatils.GetDetiles);  //Copy Contructor
+        Console.WriteLine(constrTypesCopyDeatils.GetDetiles);  // after Copy Contructor show detiles
         Console.WriteLine("Static Contructor => Values of PI : {0}", ConstrTypes._PI); // Static Constructor
         Console.WriteLine(PrivateConstructor.GetCalled()); // Private Constructor
         Console.WriteLine("----------------------------------------------------------------");
