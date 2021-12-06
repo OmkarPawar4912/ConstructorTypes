@@ -7,7 +7,7 @@
 
   <ItemGroup>
     <Reference Include="CalculatorFn">
-      <HintPath>..\..\CalculatorFn.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\IX-Traning\29 Nov 2021 C# Library App -Sumit\CalculatorFn\bin\Debug\CalculatorFn.dll</HintPath>
     </Reference>
   </ItemGroup>
 
