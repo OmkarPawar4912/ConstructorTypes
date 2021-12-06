@@ -9,11 +9,11 @@ public enum Season
 }
 public class Program
 {
-public static void Main()
+    public static void Main()
     {
         ConstrTypes constrTypes = new ConstrTypes();//For Default Constructor
-        ConstrTypes constrTypesPara = new ConstrTypes(10,20);//For Parameterized Constructor
-        ConstrTypes constrTypesCopy = new ConstrTypes("Aditya Pawar",21);
+        ConstrTypes constrTypesPara = new ConstrTypes(10, 20);//For Parameterized Constructor
+        ConstrTypes constrTypesCopy = new ConstrTypes("Aditya Pawar", 21);
         ConstrTypes constrTypesCopyDeatils = new ConstrTypes(constrTypesCopy);//For Copy Constructor
         Console.WriteLine("Parameterized Contructor After Excuting =>  No 1 : {0}   No 2 : {1} ", constrTypesPara.no1, constrTypesPara.no2);
         Console.WriteLine(constrTypesCopyDeatils.GetDetiles);  // after Copy Contructor show detiles
@@ -39,7 +39,7 @@ public static void Main()
         Console.WriteLine("Value of i   is : " + i);
         Console.WriteLine("----------------------------------------------------------------");
         FnClassLibrary fnClassLibrary = new FnClassLibrary();
-        Console.WriteLine("Extension Method => 10 % 3 = {0}",fnClassLibrary.Reminder(10, 3));
+        Console.WriteLine("Extension Method => 10 % 3 = {0}", fnClassLibrary.Reminder(10, 3));
         Console.WriteLine("=================================================================");
     }
     static void PassByValue(int value)

@@ -24,7 +24,7 @@ namespace CsharpConsole
         }
         public ConstrTypes(int no3, int no4) //Parameterized constructor
         {
-            Console.WriteLine("Parameterized Contructor Called =>  No 3 : {0}   No 4 : {1} ", no3,no4);
+            Console.WriteLine("Parameterized Contructor Called =>  No 3 : {0}   No 4 : {1} ", no3, no4);
             this.no1 = no3;
             this.no2 = no4;
         }

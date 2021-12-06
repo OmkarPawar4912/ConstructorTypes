@@ -6,7 +6,7 @@ namespace CsharpConsole
     {
         public static int Reminder(this FnClassLibrary fnClassLibrary, int i, int value)
         {
-            return (i%value);
+            return (i % value);
         }
     }
 }

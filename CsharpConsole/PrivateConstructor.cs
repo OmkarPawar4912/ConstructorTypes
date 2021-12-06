@@ -8,7 +8,6 @@ namespace CsharpConsole
     {
         private PrivateConstructor() // Private Constructor
         {
-
         }
         public static string GetCalled() // Display Private Constructor Method Called
         {
