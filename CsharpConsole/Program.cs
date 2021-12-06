@@ -1,6 +1,7 @@
 ﻿using System;
 using CalculatorFn;
 using CsharpConsole;
+
 public enum Season
 {
     Spring=1,
