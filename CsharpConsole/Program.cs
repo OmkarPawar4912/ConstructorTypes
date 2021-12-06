@@ -1,4 +1,5 @@
 ﻿using System;
+using CalculatorFn;
 using CsharpConsole;
 public enum Season
 {
@@ -89,9 +90,8 @@ public static void Main()
         Console.WriteLine("Value of obj is : " + obj);// Display result
         Console.WriteLine("Value of i   is : " + i);
         Console.WriteLine("----------------------------------------------------------------");
-        int number = 10;
-        bool result = number.IsGreaterThan(100);
-        Console.WriteLine("Extension Method => 10 is Greater Than 100 (True or False) = {0}",result);
+        FnClassLibrary fnClassLibrary = new FnClassLibrary();
+        Console.WriteLine("Extension Method => 10 % 3 = {0}",fnClassLibrary.Reminder(10, 3));
         Console.WriteLine("=================================================================");
     }
     static void PassByValue(int value)

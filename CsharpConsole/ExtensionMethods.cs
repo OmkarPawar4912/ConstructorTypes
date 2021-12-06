@@ -1,14 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using CalculatorFn;
 
 namespace CsharpConsole
 {
     public static class IntExtensions
     {
-        public static bool IsGreaterThan(this int i, int value)
+        public static int Reminder(this FnClassLibrary fnClassLibrary, int i, int value)
         {
-            return i > value;
+            return (i%value);
         }
     }
 }
